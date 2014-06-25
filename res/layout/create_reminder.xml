@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" android:weightSum="1">
+        <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="45dp"
+                android:text=" Title"
+                android:textColor="#6AACEB"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:textSize="30dp"
+                android:id="@+id/title" />
+        <EditText
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:text="  "
+                android:layout_marginTop="10dp"
+                android:textColor="#FFFFFF"
+                android:background="@drawable/rounded_corner_edittext"
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="10dp"
+                android:textSize="25dp"
+                android:id="@+id/addTitle" />
+        <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="45dp"
+                android:textColor="#6AACEB"
+                android:text=" Set time and date"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:textSize="30dp"
+                android:id="@+id/setTime" />
+        <EditText
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginTop="10dp"
+                android:text="  Set time"
+                android:layout_marginLeft="10dp"
+                android:textColor="#FFFFFF"
+                android:background="@drawable/rounded_corner_edittext"
+                android:layout_marginRight="10dp"
+                android:textSize="25dp"
+                android:editable="false"
+                android:clickable="true"
+                android:id="@+id/time"/>
+
+        <EditText
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginTop="10dp"
+                android:text="  Set date"
+                android:textSize="25dp"
+                android:textColor="#FFFFFF"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:background="@drawable/rounded_corner_edittext"
+                android:editable="false"
+                android:clickable="true"
+                android:id="@+id/date"/>
+
+        <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="45dp"
+                android:text=" Content"
+                android:layout_marginLeft="10dp"
+                android:textColor="#6AACEB"
+                android:layout_marginTop="10dp"
+                android:textSize="30dp"
+                android:id="@+id/content" />
+        <EditText
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:textColor="#FFFFFF"
+                android:gravity="top"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/rounded_corner_edittext"
+                android:text="  "
+                android:textSize="20dp"
+                android:id="@+id/addContent" />
+</LinearLayout>

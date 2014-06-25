@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content">
+
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="22dp"
+                android:layout_margin="5dp"
+                android:id="@+id/looName" android:layout_column="0"
+                android:layout_row="0" android:layout_gravity="center_horizontal"/>
+
+        <RatingBar
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                style="@android:style/Widget.Holo.Light.RatingBar.Indicator"
+                android:isIndicator="false"
+                android:layout_margin="5dp"
+                android:id="@+id/markerRatingBar" android:layout_gravity="" android:layout_weight="0.09"
+                android:numStars="5" android:rating="5" android:indeterminateOnly="false"
+                android:layout_column="0"  android:layout_row="4" android:layout_columnSpan="1"
+                />
+
+        <GridLayout
+                android:layout_width="wrap_content"
+                android:id="@+id/suitableTo"
+                android:layout_margin="5dp"
+                android:layout_height="wrap_content" android:orientation="vertical" android:columnCount="5"
+                android:rowCount="1" android:columnOrderPreserved="true" android:padding="0.5dp"
+                android:layout_column="0"  android:layout_row="17">
+
+            <ImageView
+                    android:id="@+id/men"
+                    android:layout_height="35dp"
+                    android:layout_width="35dp"/>
+            <ImageView
+                    android:id="@+id/women"
+                    android:layout_height="35dp"
+                    android:layout_width="35dp"/>
+            <ImageView
+                    android:id="@+id/babies"
+                    android:layout_height="35dp"
+                    android:layout_width="35dp"/>
+            <ImageView
+                    android:id="@+id/handicapped"
+                    android:layout_height="35dp"
+                    android:layout_width="35dp"/>
+            <ImageView
+                    android:id="@+id/transgender"
+                    android:layout_height="35dp"
+                    android:layout_width="35dp"/>
+        </GridLayout>
+
+</LinearLayout>

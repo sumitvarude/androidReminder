@@ -1,0 +1,6 @@
+<resources>
+    <string-array name="kind">
+        <item>Indian</item>
+        <item>Western</item>
+    </string-array>
+</resources>
